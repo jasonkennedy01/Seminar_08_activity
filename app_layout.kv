@@ -1,0 +1,13 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        # this layout is populated with (button) widgets in the app code
+        id: entries_box
+        orientation: 'vertical'
+    BoxLayout:
+        size_hint_y: 0.1
+        Label:
+            text: app.status_text
+        Button:
+            color: (97, 70, 6)
+            text: 'Reset'
